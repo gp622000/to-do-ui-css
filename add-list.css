@@ -1,0 +1,121 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.header,
+.container {
+  filter: blur(12px);
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+.left-text p,
+span {
+  font-size: 2.5rem;
+  /* font-family: "Muli", sans-serif; */
+}
+
+/* span {
+  color: rgb(180, 176, 176);
+  font-weight: 2px;
+  font-weight: lighter;
+  /* font-weight: bolder; */
+/* 
+  letter-spacing: 3px;
+  font-weight: lighter; */
+/* } */
+*/ .right-text {
+  display: flex;
+  margin-top: 35px;
+  margin-right: 15px;
+}
+
+.text p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: rgb(173, 167, 167);
+  padding-top: 3px;
+}
+
+.plus-icon img {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.box {
+  align-items: center;
+  height: 250px;
+  width: 150px;
+  border: rgb(231, 96, 96) 2px solid;
+  border-radius: 5px;
+  box-shadow: rgb(199, 194, 194) 5px 5px 5px;
+  margin: 30px;
+}
+
+.box p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+hr {
+  margin-left: 25px;
+  color: black;
+  border: solid black 0.5px;
+  /* margin-left: auto; */
+}
+
+.container1 {
+  width: 300px;
+  height: 200px;
+  border: rgb(231, 96, 96) 2px solid;
+  border-radius: 5px;
+  box-shadow: rgb(117, 115, 115) 5px 5px 5px;
+  margin: auto;
+  position: absolute;
+  top: 30%;
+  left: 40.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: -1;
+}
+
+.text1 {
+  color: rgb(231, 96, 96);
+  text-align: center;
+}
+.input-field input {
+  border: rgb(231, 96, 96) 2px solid;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.add-button button {
+  background-color: rgb(231, 96, 96);
+  margin-top: 10px;
+  color: white;
+  border-radius: 25px;
+  padding: 5px 25px;
+  border: none;
+}

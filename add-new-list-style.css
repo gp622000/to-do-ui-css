@@ -1,0 +1,112 @@
+body {
+  font-family: sans-serif;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  filter: blur(5px);
+}
+
+.back-button-container {
+  margin: auto;
+  width: 70px;
+  height: 70px;
+  display: flex;
+}
+
+.back-button img {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  margin-top: 13px;
+  cursor: pointer;
+}
+
+.back-button-text p {
+  font-size: 1.2rem;
+  margin-left: 10px;
+  padding-top: 2px;
+  font-weight: 300;
+}
+
+.trip-container {
+  width: 300px;
+  height: 300px;
+  /* border: rgb(231, 96, 96) 2px solid; */
+  border-radius: 5px;
+  /* box-shadow: rgb(218, 215, 215) 5px 5px 5px; */
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  position: relative;
+}
+
+.trip-container-items-text p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+hr {
+  /* margin-left: 30%; */
+  color: black;
+  border: solid black 0.5px;
+  position: relative;
+  /* margin-left: auto; */
+}
+#pending task {
+  text-align: center;
+  left: 20%;
+}
+
+.trip-container-plus-icon img {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  margin-top: 13px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 1%;
+  right: 1%;
+  align-items: flex-end;
+}
+
+.container {
+  width: 300px;
+  height: 200px;
+  border: rgb(231, 96, 96) 2px solid;
+  border-radius: 5px;
+  box-shadow: rgb(117, 115, 115) 5px 5px 5px;
+  margin: auto;
+  position: absolute;
+  top: 30%;
+  left: 40.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text {
+  color: rgb(231, 96, 96);
+  text-align: center;
+}
+.input-field input {
+  border: rgb(231, 96, 96) 2px solid;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.add-button button {
+  background-color: rgb(231, 96, 96);
+  margin-top: 10px;
+  color: white;
+  border-radius: 25px;
+  padding: 5px 25px;
+  border: none;
+}

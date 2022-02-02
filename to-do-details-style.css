@@ -1,0 +1,107 @@
+body {
+  font-family: sans-serif;
+  /* filter: blur(5px); */
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  font-family: sans-serif;
+  text-align: center;
+  position: relative;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.header hr {
+  /* position: absolute; */
+  margin-top: 22%;
+  width: 220px;
+  /* top: 10%; */
+  /* left: 25%; */
+  /* margin: auto; */
+}
+#bottom-hr {
+  /* position: absolute; */
+  width: 220px;
+  /* top: 10%; */
+  /* left: 60%; */
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.back-button-container {
+  margin: auto;
+  width: 70px;
+  height: 70px;
+  display: flex;
+}
+
+.back-button img {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  margin-top: 13px;
+  cursor: pointer;
+}
+
+.back-button-text p {
+  font-size: 1.2rem;
+  margin-left: 10px;
+  padding-top: 2px;
+  font-weight: 300;
+}
+
+.trip-container {
+  width: 300px;
+  height: 300px;
+  border: rgb(231, 96, 96) 2px solid;
+  border-radius: 5px;
+  box-shadow: rgb(199, 194, 194) 5px 5px 5px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  position: relative;
+}
+
+.trip-container-items-text p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+hr {
+  /* margin-left: 30%; */
+  color: black;
+  border: solid black 0.5px;
+  position: relative;
+  width: 160%;
+  /* margin-left: auto; */
+}
+#pending task {
+  text-align: center;
+  left: 20%;
+}
+
+.trip-container-plus-icon img {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  margin-top: 13px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 1%;
+  right: 1%;
+  align-items: flex-end;
+}
